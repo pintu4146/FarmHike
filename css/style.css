@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+padding: 0;
+  background-color: #91bd3a;
+}
+.heading{
+margin: 0;
+padding: 0;
+width: 300px;
+  margin-left: 200px;
+  font-size: 16px;
+  position: relative;
+  top: 75px;
+  left: 0;
+
+
+  color: #ff7315;
+
+}
+.heading hr{
+  margin:0;
+  width: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.span1{
+  font-size: 40px;
+  text-decoration:underline;
+  text-decoration-color: green;
+}
+.span2{
+  color: green;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-left: 50px;
+    border-radius: 100%;
+
+  }
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+/*...........menu............ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff7315;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/*contact content*/
+.cont{
+  position:relative;
+      top: 50%;
+      left: 50%;
+      width:30em;
+      height:18em;
+      margin-top: 9em; /*set to a negative number 1/2 of your height*/
+      margin-left: -15em; /*set to a negative number 1/2 of your width*/
+      border: 1px solid #ccc;
+      background-color: #f3f3f3;
+      text-align: center;
+      border-radius: 20px;
+
+
+}
+.cont a{
+text-decoration: none;
+position: relative;
+top: 9em;
+}
